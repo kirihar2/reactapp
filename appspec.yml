@@ -5,11 +5,11 @@ files:
       destination: /apps/react
 hooks:
   BeforeInstall:
-    - location: /apps/react/scripts/install_depencies.sh
+    - location: scripts/install_dependencies.sh
       timeout: 180
   ApplicationStop:
-   - location: /apps/react/scripts/stop_server.sh
+   - location: scripts/stop_server.sh
      timeout: 180
   ApplicationStart:
-    - location: /apps/react/scripts/install_service.sh
+    - location: scripts/install_service.sh
       timeout: 180
