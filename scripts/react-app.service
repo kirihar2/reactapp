@@ -3,7 +3,7 @@ Description=React App sample
 
 [Service]
 Type=simple
-ExecStart=npm start
+ExecStart=/usr/bin/npm start
 WorkingDirectory=/app/react
 
 [Install]
