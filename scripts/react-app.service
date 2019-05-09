@@ -1,0 +1,12 @@
+[Unit]
+Description=React App sample
+
+[Service]
+Type=simple
+ExecStart=npm start
+WorkingDirectory=/app/react
+
+[Install]
+WantedBy=sysinit.target
+
+
